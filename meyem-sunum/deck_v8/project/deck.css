@@ -1,0 +1,20 @@
+.s{position:relative;color:#00244D;background:#F8F4EC;font-family:'Archivo',Arial,sans-serif;counter-increment:page;overflow:hidden}
+.s2{background:#EDF1F5}
+.s::after{content:counter(page);position:absolute;right:128px;bottom:64px;font-family:'Archivo',Arial,sans-serif;font-size:24px;font-weight:500;line-height:1;color:#2C4868}
+.cover::after,.closing::after{content:""}
+.phs::after{color:#F8F4EC}
+.pin{position:absolute;margin:0}
+.tt{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:88px;font-weight:700;line-height:1;letter-spacing:-1px;color:#00244D}
+.nb{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:240px;font-weight:700;line-height:.86;letter-spacing:-4px;color:#77183A}
+.md{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:48px;font-weight:700;line-height:1.08;color:#00244D}
+.bd{font-size:32px;font-weight:400;line-height:1.38;color:#2C4868}
+.bb{font-size:32px;font-weight:700;line-height:1.1;color:#00244D}
+.xs{font-size:24px;font-weight:500;line-height:1.3;color:#2C4868}
+.wm{font-size:24px;font-weight:800;letter-spacing:4px;line-height:1;color:#00244D}
+.ac{color:#77183A}
+.ph{object-fit:cover}
+.dot{border-radius:50%}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}}
+@keyframes fadein{from{opacity:0}}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*80ms)}
+.fadein{animation:fadein .7s ease both;animation-delay:calc(var(--i,0)*80ms)}

@@ -1,12 +1,12 @@
 """MEYEM v8 tasarım sistemi: belirteçler, CSS, ızgara, yardımcılar, fotoğraf tonu ve pişirme.
 
-Kurallar (faz1 ilkeleri):
-- Tek yazı ailesi: Archivo (genişlik ekseniyle başlık, gövde ve büyük sayı).
+Kurallar (faz1 ilkeleri, faz3_tasarim.md):
+- Bir süper aile: Archivo (gövde) + Archivo Narrow (başlık, büyük sayı, vurgu). Slides, font-stretch taşımadığı için dar kesim ayrı aile.
 - Beş boy: 24 / 32 / 48 / 88 / 240 px.
-- Başlık her slaytta x=128, y=112; en fazla 2 satır; içerik y=360'tan başlar.
+- Başlık her slaytta x=128, y=112; en fazla 2 satır (satır sonu elle, <br>); içerik y=360'tan başlar; y=920 altı yalnız alt satır.
 - 12 sütun: kenar 128, oluk 32.
-- İki ana renk (lacivert, şarap) + kâğıt; vurgu yalnız şarap.
-- Guilloche yalnızca kapak, bölüm açılışı, mühür ve kapanışta; çizgi en az 2 px.
+- İki ana renk (lacivert, şarap) + kâğıt; vurgu yalnız şarap. Koyu zemin yok.
+- Guilloche yalnızca kapak, vizyon açılışı, mühür ve kapanışta; çizgi en az 2 px.
 """
 import html, os, json, subprocess
 from math import cos, sin, pi
@@ -24,11 +24,11 @@ W, H = 1920, 1080
 
 # ------------------------------------------------------------------ renk belirteçleri
 INK = '#00244D'      # lacivert: metin, ana öğe
-INK2 = '#2C4868'     # ikincil metin
+INK2 = '#2C4868'     # gövde metni, kaynak
 WINE = '#77183A'     # tek vurgu
-TINT = '#C9D2DD'     # lacivert açık ton: ikincil çubuk
-PAPER = '#F8F4EC'    # kâğıt zemin
-PAPER2 = '#FBFAF6'   # açık kâğıt
+TINT = '#C9D2DD'     # açık ton: ikincil çubuk
+PAPER = '#F8F4EC'    # kâğıt zemin (1. ton)
+PAPER2 = '#EDF1F5'   # serin kâğıt (2. ton: vizyon ve çağrı)
 LINE = '#D8D2C4'     # ince ayraç
 
 # ------------------------------------------------------------------ ızgara
@@ -48,43 +48,57 @@ def span(n):
 
 # ------------------------------------------------------------------ yazı ölçeği (px)
 FS = {'xs': 24, 's': 32, 'm': 48, 'l': 88, 'xl': 240}
-TITLE_X, TITLE_Y, TITLE_W = 128, 112, span(10)
+TITLE_X, TITLE_Y, TITLE_W = 128, 112, span(11)
 CONTENT_Y = 360
-FOOT_Y = 992
+FOOT_Y = 992                    # 24 px satır: alt kenar 64
 
 FACES = {
     'archivo': {'family': 'Archivo',
-                'href': 'https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap'},
+                'href': 'https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&display=swap'},
+    'archivo-narrow': {'family': 'Archivo Narrow',
+                       'href': 'https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400..700&display=swap'},
 }
 
 CSS = """
-.s{position:relative;color:#00244D;background:#F8F4EC;font-family:'Archivo',Arial,sans-serif;font-stretch:100%;counter-increment:page;overflow:hidden}
+.s{position:relative;color:#00244D;background:#F8F4EC;font-family:'Archivo',Arial,sans-serif;counter-increment:page;overflow:hidden}
+.s2{background:#EDF1F5}
 .s::after{content:counter(page);position:absolute;right:128px;bottom:64px;font-family:'Archivo',Arial,sans-serif;font-size:24px;font-weight:500;line-height:1;color:#2C4868}
 .cover::after,.closing::after{content:""}
-.phs::after{color:#FFFFFF}
+.phs::after{color:#F8F4EC}
 .pin{position:absolute;margin:0}
-.bk{position:absolute}
-.tt{font-size:88px;font-weight:700;font-stretch:78%;line-height:1;letter-spacing:-1px;color:#00244D;text-wrap:balance}
-.nb{font-size:240px;font-weight:800;font-stretch:62%;line-height:.86;letter-spacing:-2px;color:#77183A}
-.md{font-size:48px;font-weight:700;font-stretch:80%;line-height:1.05;color:#00244D}
+.tt{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:88px;font-weight:700;line-height:1;letter-spacing:-1px;color:#00244D}
+.nb{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:240px;font-weight:700;line-height:.86;letter-spacing:-4px;color:#77183A}
+.md{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:48px;font-weight:700;line-height:1.08;color:#00244D}
 .bd{font-size:32px;font-weight:400;line-height:1.38;color:#2C4868}
 .bb{font-size:32px;font-weight:700;line-height:1.1;color:#00244D}
 .xs{font-size:24px;font-weight:500;line-height:1.3;color:#2C4868}
-.wm{font-size:24px;font-weight:800;font-stretch:110%;letter-spacing:4px;line-height:1;color:#00244D}
+.wm{font-size:24px;font-weight:800;letter-spacing:4px;line-height:1;color:#00244D}
 .ac{color:#77183A}
 .ph{object-fit:cover}
+.dot{border-radius:50%}
 @keyframes rise{from{opacity:0;transform:translateY(20px)}}
 @keyframes fadein{from{opacity:0}}
-.rise{animation:rise .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*100ms)}
-.fadein{animation:fadein 1s ease both;animation-delay:calc(var(--i,0)*100ms)}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*80ms)}
+.fadein{animation:fadein .7s ease both;animation-delay:calc(var(--i,0)*80ms)}
 """
 
 MODE = {'v': 'preview'}          # 'preview' | 'publish'
 USED = {}
 
 
+def tq(s):
+    """Tipografik kesme işareti (’)."""
+    return str(s).replace("'", '’')
+
+
 def esc(s):
-    return html.escape(str(s), quote=False)
+    return html.escape(tq(s), quote=False)
+
+
+def rich(s):
+    """Kaçışlı metin; '\\n' → <br>, [[...]] → şarap renkli span."""
+    t = esc(s).replace('\n', '<br>')
+    return t.replace('[[', '<span style="color:#77183A">').replace(']]', '</span>')
 
 
 def url_for(fn):
@@ -102,16 +116,16 @@ def sty(x=None, y=None, w=None, h=None, extra=''):
     return s + extra
 
 
-def P(cls, x, y, w, text, extra='', tag='p', raw=False, i=None):
+def P(cls, x, y, w, text, extra='', tag='p', i=None):
     st = sty(x, y, w, None, extra)
     cl = 'pin ' + cls + (' rise' if i is not None else '')
     if i is not None:
-        st += f'--i:{i};'
-    return f'<{tag} class="{cl}" style="{st}">{text if raw else esc(text)}</{tag}>'
+        st += f'--i:{min(i, 4)};'
+    return f'<{tag} class="{cl}" style="{st}">{rich(text)}</{tag}>'
 
 
-def TITLE(text, w=TITLE_W, i=0):
-    return P('tt', TITLE_X, TITLE_Y, w, text, tag='h2', i=i)
+def TITLE(text, w=TITLE_W, tag='h2'):
+    return P('tt', TITLE_X, TITLE_Y, w, text, tag=tag, i=0)
 
 
 def SOURCE(text):
@@ -122,15 +136,16 @@ def IMG(fn, x, y, w, h, alt='', cls='pin', extra='', i=None):
     st = sty(x, y, w, h, extra)
     cl = cls + (' fadein' if i is not None else '')
     if i is not None:
-        st += f'--i:{i};'
+        st += f'--i:{min(i, 4)};'
     return f'<img class="{cl}" src="{url_for(fn)}" alt="{esc(alt)}" style="{st}">'
 
 
-def BOX(x, y, w, h, color, extra='', inner=''):
-    return f'<div class="pin" style="{sty(x, y, w, h)}background:{color};{extra}">{inner}</div>'
+def BOX(x, y, w, h, color, extra='', cls='pin'):
+    return f'<div class="{cls}" style="{sty(x, y, w, h)}background:{color};{extra}"></div>'
 
 
 def SEC(sid, inner, notes, cls=''):
+    assert len(tq(notes)) <= 4000
     return (f'<section id="{sid}" class="s{(" " + cls) if cls else ""}" data-transition="fade">\n{inner}\n'
             f'<aside>{esc(notes)}</aside>\n</section>\n')
 
@@ -183,7 +198,7 @@ def bake_alpha(name, svg_inner, w, h, dsf=2):
     return f'{ASSETS}/{name}.png'
 
 
-# ------------------------------------------------------------------ guilloche (mühür halkası)
+# ------------------------------------------------------------------ guilloche
 def _f(x):
     return f'{x:.1f}'
 
@@ -198,7 +213,7 @@ def _wavy(cx, cy, R, a, nw, ph, steps=900):
 
 
 def seal_ring(cx, cy, r_in=124, r_out=170, n=7, amp=4.5, nw=40, sw=2.0):
-    """İki zıt fazlı dalgalı halka demeti (lacivert + şarap), iç ve dış çember. Çizgiler 2 px."""
+    """Mühür halkası: iki zıt fazlı dalgalı halka demeti (lacivert + şarap), iç ve dış çember. Çizgiler 2 px."""
     out = []
     gap = (r_out - r_in - 2 * amp) / max(1, n - 1)
     for k in range(n):
@@ -207,4 +222,19 @@ def seal_ring(cx, cy, r_in=124, r_out=170, n=7, amp=4.5, nw=40, sw=2.0):
         out.append(f'<path d="{_wavy(cx, cy, R, amp, nw, pi + k * 0.42)}" fill="none" stroke="{WINE}" stroke-width="{sw}" stroke-opacity=".55"/>')
     out.append(f'<circle cx="{cx}" cy="{cy}" r="{r_in - 6}" fill="none" stroke="{WINE}" stroke-width="2"/>')
     out.append(f'<circle cx="{cx}" cy="{cy}" r="{r_out + 6}" fill="none" stroke="{INK}" stroke-width="2"/>')
+    return ''.join(out)
+
+
+def braid_band(w, h, n=6, amp=18, wl=260, spread=3.6, sw=2.0):
+    """Vizyon açılış bandı: iki zıt fazlı sinüs demeti (örgü). Yatay, şeffaf zemin."""
+    out = []
+    cy = h / 2
+    for side, col_, ph0 in ((0, INK, 0.0), (1, WINE, pi)):
+        for k in range(n):
+            pts = []
+            for i in range(0, int(w) + 1, 4):
+                env = 1 + 0.25 * sin(2 * pi * i / (wl * 2.7))
+                y = cy + (k - (n - 1) / 2) * spread + amp * env * sin(2 * pi * i / wl + ph0 + k * 0.30)
+                pts.append(f'{_f(i)} {_f(y)}')
+            out.append(f'<path d="M{" L".join(pts)}" fill="none" stroke="{col_}" stroke-width="{sw}" stroke-opacity=".55"/>')
     return ''.join(out)

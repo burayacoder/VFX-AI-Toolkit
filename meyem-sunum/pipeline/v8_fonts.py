@@ -1,9 +1,9 @@
-"""v8 yazı ailesi: Archivo (değişken; genişlik 62–125, ağırlık 100–900), latin + latin-ext.
+"""v8 yazı aileleri: Archivo (gövde) ve Archivo Narrow (başlık, sayı), latin + latin-ext.
 fonts/fonts_v8.css yazar. Yalnızca yerel önizleme ve pişirme içindir; sunum Google Fonts adresini kullanır."""
 import os, re, urllib.request, hashlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'}
-FAM = {'archivo': 'Archivo:wdth,wght@62..125,100..900'}
+FAM = {'archivo': 'Archivo:wght@100..900', 'archivo-narrow': 'Archivo+Narrow:wght@400..700'}
 os.makedirs(HERE + '/fonts', exist_ok=True)
 out = []
 for key, fam in FAM.items():

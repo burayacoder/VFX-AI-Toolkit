@@ -6,15 +6,17 @@ Tarih: 14 Kasım 2026. Temas sayfası: `faz3/faz3_temas.png`. Sayfada kapak, ver
 
 ### Yazı
 
-Tek aile kullanılır: **Archivo** (Google Fonts). Değişken bir ailedir: genişlik 62–125, ağırlık 100–900. Latin-ext içerir ve Türkçe karakterlerin tamamını destekler. Mono ve italik yoktur.
+Tek süper aile kullanılır: **Archivo** (gövde) ve **Archivo Narrow** (başlık, büyük sayı, vurgu). İkisi de Google Fonts'ta, latin-ext içerir ve Türkçe karakterlerin tamamını destekler. Mono ve italik yoktur.
 
-| Rol | Boy | Ağırlık | Genişlik | Not |
+Faz 3 örneklerinde Archivo'nun genişlik ekseni (`font-stretch`) kullanılmıştı. Slides bu özelliği taşımadığı için Faz 4'te dar kesim ayrı aile olarak eklendi; görünüm aynı kaldı.
+
+| Rol | Boy | Ağırlık | Aile | Not |
 |---|---|---|---|---|
-| Büyük sayı | 240 px | 800 | %62 | Veri slaydında tek ana sayı |
-| Başlık | 88 px | 700 | %78 | Satır aralığı 1,0; `text-wrap: balance` |
-| Vurgu, veri etiketi | 48 px | 700 | %80 | |
-| Gövde | 32 px | 400 | %100 | Vurgulu hâli 700 |
-| Kaynak, etiket | 24 px | 500 | %100 | |
+| Büyük sayı | 240 px | 700 | Narrow | Veri slaydında tek ana sayı |
+| Başlık | 88 px | 700 | Narrow | Satır aralığı 1,0; satır sonu elle (`<br>`) |
+| Vurgu, veri etiketi | 48 px | 700 | Narrow | |
+| Gövde | 32 px | 400 | Archivo | Vurgulu hâli 700 |
+| Kaynak, etiket | 24 px | 500 | Archivo | |
 
 ### Renk
 

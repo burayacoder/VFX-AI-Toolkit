@@ -1,0 +1,68 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-14T12:57:25Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "MEYEM Vizyon 2027",
+ "cover": "kapak",
+ "order": [
+  "kapak",
+  "vizyon",
+  "zorunluluk",
+  "takvim",
+  "isyeri",
+  "kapsam",
+  "surec",
+  "tesvik",
+  "kazanc",
+  "kanit",
+  "isbirligi",
+  "cagri",
+  "kapanis"
+ ],
+ "sections": {
+  "s1": {
+   "description": "Vizyon: ustalığı üretim durmadan belgeye dönüştürmek",
+   "start": "kapak"
+  },
+  "s2": {
+   "description": "Neden şimdi: zorunluluk büyüyor ve takvim işliyor",
+   "start": "zorunluluk"
+  },
+  "s3": {
+   "description": "Ne yapıyoruz: işyerinde sınav, kapsam ve süreç",
+   "start": "isyeri"
+  },
+  "s4": {
+   "description": "İşverene değeri: teşvik ve üç kazanç",
+   "start": "tesvik"
+  },
+  "s5": {
+   "description": "Kanıt ve iş birliği",
+   "start": "kanit"
+  },
+  "s6": {
+   "description": "Çağrı ve iletişim",
+   "start": "cagri"
+  }
+ },
+ "faces": {
+  "archivo": {
+   "family": "Archivo",
+   "href": "https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&display=swap"
+  },
+  "archivo-narrow": {
+   "family": "Archivo Narrow",
+   "href": "https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400..700&display=swap"
+  }
+ },
+ "designSystems": []
+}

@@ -8,3 +8,6 @@ pipeline/stage/
 pipeline/pylib/
 pipeline/__pycache__/
 kaynak/
+pipeline/out_v8/
+pipeline/art_v8/
+pipeline/assets_v8/

@@ -1,10 +1,10 @@
-# Yeni oturumda devam etme (Opus 5.5)
+# Yeni oturumda devam etme
 
 ## Adımlar
 
 1. Claude uygulamasında ya da claude.ai/code adresinde yeni bir oturum aç.
 2. Depo olarak `burayacoder/VFX-AI-Toolkit`, ortam olarak **MYK araştırma** seç. Dal seçimi çıkarsa `claude/marmara-mevzuat-sertifikasyon-bi6rnp` seç. Çıkmazsa sorun değil, mesajdaki ilk komut dalı getirir.
-3. Model seçiciden **Opus 5.5** seç. Terminalde çalışıyorsan `/model claude-opus-5-5` yaz.
+3. Model seçiciden, sohbette önerilen modeli seç.
 4. Aşağıdaki mesajı yapıştır. Gerekirse 2. ve 4. yanıtı değiştir, sonra gönder.
 
 ## Yapıştırılacak mesaj

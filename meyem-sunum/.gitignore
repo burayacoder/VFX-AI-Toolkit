@@ -1,0 +1,10 @@
+pipeline/art/
+pipeline/assets/
+pipeline/out/
+pipeline/fonts/
+pipeline/web/
+pipeline/photos/
+pipeline/stage/
+pipeline/pylib/
+pipeline/__pycache__/
+kaynak/

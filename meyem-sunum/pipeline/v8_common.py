@@ -64,7 +64,6 @@ CSS = """
 .s2{background:#EDF1F5}
 .s::after{content:counter(page);position:absolute;right:128px;bottom:64px;font-family:'Archivo',Arial,sans-serif;font-size:24px;font-weight:500;line-height:1;color:#2C4868}
 .cover::after,.closing::after{content:""}
-.phs::after{color:#F8F4EC}
 .pin{position:absolute;margin:0}
 .tt{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:88px;font-weight:700;line-height:1;letter-spacing:-1px;color:#00244D}
 .nb{font-family:'Archivo Narrow','Arial Narrow',Arial,sans-serif;font-size:240px;font-weight:700;line-height:.86;letter-spacing:-4px;color:#77183A}

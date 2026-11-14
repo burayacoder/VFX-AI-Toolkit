@@ -319,7 +319,7 @@ N_CAGRI = ("Sizden tek bir adım istiyoruz: ilk toplu sınav gününü birlikte 
 def kapanis():
     h = IMG('v8_kapanis_foto.jpg', HALF, 0, W - HALF, H, alt='MEYEM uzmanı bir ekibe sunum yapıyor', cls='pin ph', i=0)
     h += brand_row()
-    h += P('tt', 128, 230, 760, 'Ustalığı belgeye\ndönüştürmek için\nhazırız.', i=1)
+    h += P('tt', 128, 230, 760, 'Ustalığı belgeye\ndönüştürmek için\nhazırız.', tag='h2', i=1)
     h += P('md ac', 128, 520, 760, 'Ustalık sizden, mühür bizden.', i=2)
     h += P('bd', 128, 610, 680, 'meyem.com.tr\nbelge@meyem.com.tr\n0 (505) 024 17 24  ·  0 (553) 908 92 33', extra='color:#00244D;', i=3)
     h += IMG('v8_qr.png', 128, 772, 140, 140, alt='meyem.com.tr adresine giden QR kod', i=3)
@@ -338,7 +338,7 @@ SLIDES_V8 = [
     ('vizyon', vizyon, N_VIZYON, 's2'),
     ('zorunluluk', zorunluluk, N_ZORUNLULUK, ''),
     ('takvim', takvim, N_TAKVIM, ''),
-    ('isyeri', isyeri, N_ISYERI, 'phs'),
+    ('isyeri', isyeri, N_ISYERI, ''),
     ('kapsam', kapsam, N_KAPSAM, ''),
     ('surec', surec, N_SUREC, ''),
     ('tesvik', tesvik, N_TESVIK, ''),

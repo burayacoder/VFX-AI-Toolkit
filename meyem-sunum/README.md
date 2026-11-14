@@ -12,6 +12,7 @@ Bu klasör, MEYEM vizyon sunumu çalışmasını yeni bir Claude Code oturumunda
 - **Faz 2 tamamlandı (14.11.2026):** `faz2_hikaye.md`: hedef kitle, ana mesaj ve 13 slaytlık akış. Her slayt için A/B başlık, slayt metni, kaynak satırı ve konuşma notu var.
 - **v8 yayında (14.11.2026):** https://claude.ai/artifact/6eGMatyJb7GowuNoftVan5. Slides türünde, 13 slayt. Kaynak kopyası `deck_v8/`, varlık eşlemesi `data/assets_v8.json`. v7 karşılaştırma için olduğu gibi duruyor.
 - **Faz 3 (14.11.2026):** `faz3_tasarim.md` ve `faz3/faz3_temas.png`. Tek aile (Archivo), 5 boy, 12 sütun. Örnek slaytlar: kapak, kapsam ve sınav işyerinde. v8 boru hattı `pipeline/v8_*.py` ve `qa_v8.js`. Kullanıcı örnekleri görmeden tamamına geçilmesini istedi.
+- **Faz 5 tamamlandı (14.11.2026):** `faz5_kalite.md`. Denetimlerde 0 sorun kaldı, puan kartı ortalaması 10/10. Temas sayfaları `faz5/` klasöründe. Sıradaki iş kullanıcının geri bildirimi.
 - **Faz 4 tamamlandı (14.11.2026):** 13 slayt üretildi ve yayınlandı. Başlık ve sayılarda Archivo Narrow, gövdede Archivo kullanıldı; Slides `font-stretch` desteklemediği için dar kesim ayrı ailedir.
 - **Eski sunumlar:** aynı hesapta 8 sunum daha var (4 tasarım × Gebze analizi + Türkiye vizyonu). Bunlara dokunulmaz.
 - **Hedef kitle** Faz 2'de netleşecek. v7 işverene konuşuyor: belge zorunluluğu, yerinde sınav ve teşvik.

@@ -10,6 +10,12 @@ Bu klasör, MEYEM vizyon sunumu çalışmasını yeni bir Claude Code oturumunda
 - **Kullanıcının 4. tur geri bildirimleri** v7'de karşılandı. Sıradaki iş v3 yeniden tasarımı (bölüm 5). Kullanıcının 5 soruya yanıtları bölüm 6'da.
 - **Faz 1 tamamlandı (14.11.2026):** `faz1_referanslar.md`: 28 referanslık 2026 panosu ve 10 tasarım ilkesi.
 - **Faz 2 tamamlandı (14.11.2026):** `faz2_hikaye.md`: hedef kitle, ana mesaj ve 13 slaytlık akış. Her slayt için A/B başlık, slayt metni, kaynak satırı ve konuşma notu var.
+- **v9 örnekleri onay bekliyor (14.11.2026):** https://claude.ai/artifact/NMdLq7trYCPeZTXdUtyLhi. Üç slayt: kapak, takvim ve kapsam.
+  - **Neden v9:** Kullanıcı, v8'i Sonnet'le yapılan v7'den daha vasat buldu. v9, v8'in hikâyesini korur ve v7'nin güvenlik baskısı dilini veriyle yeniden kurar.
+  - **Görsel dil:** Kapak bir belge yüzü gibidir: çerçeve, 55 halkalı veri rozeti ve fotoğraf penceresine basılmış mühür. Takvimde şerit, son tarihe yaklaştıkça sıklaşır ve geçiş süresinin bittiği gün bir damgayla işaretlenir. Kapsam slaydında her yeterlilik bir pul olarak gösterilir.
+  - **Yazı:** Instrument Serif ve Hanken Grotesk.
+  - **Dosyalar:** kaynak `deck_v9/`, `pipeline/v9_*.py`, varlık eşlemesi `data/assets_v9.json`.
+  - **Onaydan sonra:** kalan 10 slayt aynı dille üretilir.
 - **v8 yayında (14.11.2026):** https://claude.ai/artifact/6eGMatyJb7GowuNoftVan5. Slides türünde, 13 slayt. Kaynak kopyası `deck_v8/`, varlık eşlemesi `data/assets_v8.json`. v7 karşılaştırma için olduğu gibi duruyor.
 - **Faz 3 (14.11.2026):** `faz3_tasarim.md` ve `faz3/faz3_temas.png`. Tek aile (Archivo), 5 boy, 12 sütun. Örnek slaytlar: kapak, kapsam ve sınav işyerinde. v8 boru hattı `pipeline/v8_*.py` ve `qa_v8.js`. Kullanıcı örnekleri görmeden tamamına geçilmesini istedi.
 - **Faz 5 tamamlandı (14.11.2026):** `faz5_kalite.md`. Denetimlerde 0 sorun kaldı, puan kartı ortalaması 10/10. Temas sayfaları `faz5/` klasöründe. Sıradaki iş kullanıcının geri bildirimi.

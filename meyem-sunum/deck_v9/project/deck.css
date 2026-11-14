@@ -1,0 +1,19 @@
+.s{position:relative;color:#00244D;background:#F8F4EC;font-family:'Hanken Grotesk',Arial,sans-serif;counter-increment:page;overflow:hidden}
+.pc{background:#E9EFF6}.pb{background:#F4E8EB}
+.s::after{content:counter(page);position:absolute;right:128px;bottom:64px;font-family:'Hanken Grotesk',Arial,sans-serif;font-size:24px;font-weight:600;line-height:1;color:#2C4868}
+.cover::after,.closing::after{content:""}
+.pin{position:absolute;margin:0}
+.bk{position:absolute}
+.ey{font-size:24px;font-weight:700;letter-spacing:4px;line-height:1;color:#77183A}
+.tt{font-family:'Instrument Serif',Georgia,serif;font-size:96px;font-weight:400;line-height:1;letter-spacing:-.5px;color:#00244D}
+.ds{font-family:'Instrument Serif',Georgia,serif;font-size:48px;font-weight:400;line-height:1.05;color:#00244D}
+.bd{font-size:32px;font-weight:400;line-height:1.4;color:#2C4868}
+.bb{font-size:32px;font-weight:600;line-height:1.2;color:#00244D}
+.xs{font-size:24px;font-weight:500;line-height:1.3;color:#2C4868}
+.lb{font-size:24px;font-weight:700;letter-spacing:3px;line-height:1.2;color:#77183A}
+.wm{font-size:32px;font-weight:800;letter-spacing:8px;line-height:1;color:#00244D}
+.ph{object-fit:cover}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+@keyframes fadein{from{opacity:0}}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*90ms)}
+.fadein{animation:fadein .8s ease both;animation-delay:calc(var(--i,0)*90ms)}

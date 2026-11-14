@@ -7,7 +7,8 @@ Bu klasör, MEYEM vizyon sunumu çalışmasını yeni bir Claude Code oturumunda
 - **Canlı sunum:** https://claude.ai/artifact/558FZyn6ShCbjLaEZBt66r. Slides türünde, sürüm 7, 14 slayt.
   - Kaynak kopyası `deck_v7/` klasöründe. Slayt metinlerini okumak için Artifact okumaya gerek yok.
   - Sıra: kapak, imza, soz, belge, takvim, alan, yaprak, yerinde, durak, tesvik, referans, halka, yol, kapanis.
-- **Kullanıcının 4. tur geri bildirimleri** v7'de karşılandı. Sıradaki iş v3 yeniden tasarımı (bölüm 5). Kullanıcı bekleyen 5 soruyu (bölüm 6) ilk mesajında yanıtlar.
+- **Kullanıcının 4. tur geri bildirimleri** v7'de karşılandı. Sıradaki iş v3 yeniden tasarımı (bölüm 5). Kullanıcının 5 soruya yanıtları bölüm 6'da.
+- **Faz 1 tamamlandı (14.11.2026):** `faz1_referanslar.md`: 28 referanslık 2026 panosu ve 10 tasarım ilkesi. Sıradaki iş Faz 2.
 - **Eski sunumlar:** aynı hesapta 8 sunum daha var (4 tasarım × Gebze analizi + Türkiye vizyonu). Bunlara dokunulmaz.
 - **Hedef kitle** Faz 2'de netleşecek. v7 işverene konuşuyor: belge zorunluluğu, yerinde sınav ve teşvik.
 
@@ -116,17 +117,15 @@ Kullanıcı bu planı gördü. Yeni oturum, kullanıcının yanıtlarıyla Faz 1
 - Her slayt 10 kriterli bir puan kartıyla değerlendirilir.
 - Sonuç yeni bağlantıyla teslim edilir; v7 karşılaştırma için kalır.
 
-## 6. Kullanıcıya sorulan, yanıt bekleyen sorular
+## 6. Kullanıcının yanıtları (14.11.2026)
 
-1. Ağ erişimi sınırsız kalsın mı? Şu an sınırsız, kullanıcı onayladı.
-2. Unsplash, Pexels ya da Pixabay API anahtarı verilecek mi? Verilirse `request_credential` formuyla istenir.
-3. Kendi Chrome'u Claude masaüstü uygulaması ve uzantı üzerinden bağlanacak mı? Bağlanmazsa siteler oturum açmadan gezilir: Behance tam açık, Pinterest kısmen.
-4. MEYEM'den gelecek girdiler:
-   - Vizyon ve misyon cümlesi, 2027–2030 hedef rakamları.
-   - Gerçek sınav, ekip ve ofis fotoğrafları.
-   - Referans logolarını kullanma izni.
-   - Varsa kurumsal kimlik kılavuzu.
-5. Yeni dosya mı açılsın, yoksa v7'nin üzerine mi yazılsın? Öneri yeni dosya.
+1. Ağ erişimi sınırsız kalır.
+2. Stok fotoğraf API anahtarı yok; CC0 kaynaklarla devam edilir.
+3. Chrome bağlanmaz. Behance ve Pinterest oturum açmadan gezilir.
+   - Behance bu ortamdan yapılan otomatik isteklere 403 veriyor; engel aşılmaz.
+4. MEYEM'den girdi henüz yok (vizyon cümlesi, hedef rakamları, fotoğraflar, logo izni, kimlik kılavuzu). Sunum mevcut gerçeklerle kurulur; sunuma yer tutucu ya da uyarı konmaz.
+5. Yeni sunum dosyası açılır; v7 karşılaştırma için kalır.
+6. Her faz sonunda commit ve bu dala push izni var. Faz 1 ve Faz 2 sonunda en fazla 10 satırlık özet verilir. Faz 3'te 3 örnek slayt tek temas sayfasında gösterilir ve onay beklenir.
 
 ## 7. v7 tasarım sistemi (referans için)
 
@@ -207,6 +206,7 @@ python3 sheet.py out/qa out/qa/sheet out 8 # temas sayfası
 - **Playwright ve Chromium:** hazır kurulu. `playwright install` çalıştırılmaz.
 - **Kullanıcının bilgisayarı ve Chrome'u:** bu bulut oturumundan erişilemez. Claude in Chrome araçları yok ve paylaşılmış klasör yok.
 - **Geçici klasör (scratchpad):** yeni oturuma taşınmaz. Kalıcı olması gereken her şey bu klasöre yazılıp commit edilir.
+- **Depo erişimi:** oturum depo seçilmeden açılırsa klon salt okunur olur ve push 403 alır. Yeni oturum `burayacoder/VFX-AI-Toolkit` seçili açılmalı.
 
 ## 11. Token disiplini
 

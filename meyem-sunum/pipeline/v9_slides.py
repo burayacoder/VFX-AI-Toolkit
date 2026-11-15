@@ -160,4 +160,27 @@ N_KAPSAM = ("Her pul bir ulusal yeterlilik: dolu şarap pullar zorunlu kapsamda,
             "Gönüllü kapsamdaki alanlar: bilişim ve siberde 14, ticaret ve emlakta 6, yönetim ve insan kaynaklarında 4, gıda ve paketlemede 1 yeterlilik. "
             "Sağ alttaki kesik çizgili pullar MYK'da onay sürecindeki 32 yeterlilik; bunların 16'sı zorunlu kapsamda.")
 
-SLIDES = [('kapak', kapak, N_KAPAK, 'cover'), ('takvim', takvim, N_TAKVIM, 'pc'), ('kapsam', kapsam, N_KAPSAM, '')]
+# ------------------------------------------------------------------ vizyon
+VIS = [('Geliştiriyoruz', 'MYK belgelendirme süreçlerimizi sürekli güçlendiriyoruz.'),
+       ('Mesleğe yer açıyoruz', "MYK'da karşılığı olmayan mesleği MYK ile görüşerek uygun çerçeveye ve meslek koluna yerleştiriyoruz."),
+       ('Öncülük ediyoruz', "Alanımızda Türkiye'ye yön veren, örnek gösterilen kuruluş olmayı hedefliyoruz.")]
+
+
+def vizyon():
+    s = BK('bk_v9_vizyon')
+    s += P('ey', 128, 112, 1200, 'VİZYON', i=0)
+    s += P('tt', 128, 152, 1664, "Türkiye'de mesleki belgelendirmenin\nöncü kuruluşu olmayı hedefliyoruz.", tag='h2', i=0)
+    for k, (h, t) in enumerate(VIS):
+        x = A.VCOL[k]
+        s += P('ds', x, 440, 520, h, extra=('color:#77183A;' if k == 2 else ''), i=1 + k)
+        s += P('bd', x, 690, 500, t, i=1 + k)
+    return s
+
+
+N_VIZYON = ("Vizyonumuz üç adımdan oluşuyor. Birincisi, MYK belgelendirme süreçlerimizi sürekli geliştiriyoruz. "
+            "İkincisi, MYK'da henüz karşılığı olmayan meslek gruplarını MYK ile görüşmeler yaparak uygun çerçeveye yerleştiriyor, gerektiğinde uygun bir meslek kolu oluşturulmasına katkı sağlıyoruz. "
+            "Üçüncüsü, bütün bunların sonunda Türkiye'de mesleki belgelendirmenin öncü lideri olmayı hedefliyoruz. "
+            "Şimdi bu hedefin neden bugün önem kazandığına bakalım.")
+
+
+SLIDES = [('kapak', kapak, N_KAPAK, 'cover'), ('vizyon', vizyon, N_VIZYON, 'pb'), ('takvim', takvim, N_TAKVIM, 'pc'), ('kapsam', kapsam, N_KAPSAM, '')]

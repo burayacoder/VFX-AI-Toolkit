@@ -15,6 +15,7 @@
  "cover": "kapak",
  "order": [
   "kapak",
+  "vizyon",
   "takvim",
   "kapsam"
  ],

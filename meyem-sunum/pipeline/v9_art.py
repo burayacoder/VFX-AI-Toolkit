@@ -208,7 +208,24 @@ def art_kapsam():
     return s
 
 
-ARTS = {'bk_v9_kapak': art_kapak, 'bk_v9_takvim': art_takvim, 'bk_v9_kapsam': art_kapsam}
+VCOL = [128, 704, 1280]          # vizyon sütunları (x)
+VY = 600
+
+
+def art_vizyon():
+    s = f'<rect width="{W}" height="{H}" fill="{PAPER_B}"/>'
+    s += underprint(0, 380, W, 940, gap=16, amp=4, wl=260, op=0.05)
+    s += ribbon(128, 1792, VY, n=7, spread=2.8, wl=170)
+    for k, x in enumerate(VCOL):
+        cx = x + 28
+        if k < 2:
+            s += circle(cx, VY, 28, INK, 0, 0, PAPER_B) + circle(cx, VY, 28, INK, 2.0, 0.9) + circle(cx, VY, 19, INK, 1.4, 0.7) + f'<circle cx="{cx}" cy="{VY}" r="7" fill="{INK}"/>'
+        else:
+            s += circle(cx, VY, 34, WINE, 0, 0, PAPER_B) + circle(cx, VY, 34, WINE, 3.0, 0.95) + circle(cx, VY, 24, WINE, 1.6, 0.9) + f'<circle cx="{cx}" cy="{VY}" r="10" fill="{WINE}"/>'
+    return s
+
+
+ARTS = {'bk_v9_vizyon': art_vizyon, 'bk_v9_kapak': art_kapak, 'bk_v9_takvim': art_takvim, 'bk_v9_kapsam': art_kapsam}
 
 
 def bake(names=None, dsf=2, q=90):

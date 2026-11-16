@@ -45,8 +45,8 @@ Sonnet sunumunun (v7) fotoğrafları anlatıyla örtüşen CC0 ya da kamu malı 
 
 | Varlık | Kaynak | Lisans | Konu |
 |---|---|---|---|
-| cover_photo | https://www.flickr.com/photos/62518311@N00/428896110 | CC0 (flickr) | Obreros: baret, yelek, eldiven ve gözlüklü ekip |
-| close_photo | https://www.flickr.com/photos/49208525@N08/7162907121 | Kamu malı (PDM) (flickr) | U.S. Fish and Wildlife Service: baretli, yelekli, gözlüklü çalışan |
+| cover_photo | https://pxhere.com/en/photo/513138 | CC0 (PxHere) | Tulum, yüz siperi, eldiven ve dizlikli usta taşlama yapıyor |
+| close_photo | https://pxhere.com/en/photo/513102 | CC0 (PxHere) | Kulak koruyucu, gözlük ve yelekli, tebessüm eden çalışan |
 | soz_a1 | https://pxhere.com/en/photo/1324058 | CC0 (PxHere) | work,man,person,people,hand,building |
 | soz_a2 | https://www.rawpixel.com/image/5928007/photo-image-public-domain-wood-person | CC0 (rawpixel) | İş eldivenli eller ölçü işaretliyor |
 | soz_a3 | https://pxhere.com/en/photo/1575627 | CC0 (PxHere) | architect,architecture,adult,architectural,blank,blue |
@@ -68,3 +68,4 @@ Sonnet sunumunun (v7) fotoğrafları anlatıyla örtüşen CC0 ya da kamu malı 
 - PxHere tam boy dosyası sunucu zaman aşımına düştüğü için önbellekteki 800 px sürüm kullanıldı.
 - StockSnap bu ortamdan yapılan isteklere 403 verdi; engel aşılmadı.
 - 16.11.2026 revizyonu: koruyucu ekipmanı eksik görünen kapak, kapanış, söz (2. kemer) ve forklift fotoğrafları değiştirildi; gıda karosu rawpixel önizlemesindeki soluk filigran yüzünden USDA Flickr aslından yeniden üretildi.
+- 16.11.2026 (ikinci tur): kapak ve kapanış, aynı profesyonel iş güvenliği çekiminden iki temiz CC0 fotoğrafla değiştirildi.

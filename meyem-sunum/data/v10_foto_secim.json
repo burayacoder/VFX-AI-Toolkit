@@ -1,28 +1,21 @@
 {
  "cover_photo": {
-  "url": "https://live.staticflickr.com/151/428896110_fc253547ce_b.jpg",
-  "kaynak": "https://www.flickr.com/photos/62518311@N00/428896110",
-  "lisans": "CC0 (flickr)",
-  "not_": "Obreros",
-  "cx": 0.35,
+  "url": "https://c.pxhere.com/photos/75/3c/industrial_security_logistic_work_clothes_industrial_safety_protective_goggles_vest_worker-513138.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/513138",
+  "lisans": "CC0 (PxHere)",
+  "not_": "industrial safety, protective clothing",
+  "cx": 0.58,
   "cy": 0.5,
-  "zoom": 1.0,
-  "grade": [
-   1.06,
-   1.12,
-   0.8,
-   1.02
-  ]
+  "zoom": 1.0
  },
  "close_photo": {
-  "url": "https://live.staticflickr.com/7240/7162907121_1e20240f8c_b.jpg",
-  "kaynak": "https://www.flickr.com/photos/49208525@N08/7162907121",
-  "lisans": "Kamu malı (PDM) (flickr)",
-  "not_": "Regional Director Tom Melius and Walt Szelag",
-  "yazar": "U.S. Fish and Wildlife Service - Midwest Region",
-  "cx": 0.69,
-  "cy": 0.52,
-  "zoom": 1.55
+  "url": "https://c.pxhere.com/photos/25/02/industrial_security_logistic_work_clothes_industrial_safety_protective_goggles_vest_worker-513102.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/513102",
+  "lisans": "CC0 (PxHere)",
+  "not_": "industrial safety, goggles, ear protection, vest",
+  "cx": 0.4,
+  "cy": 0.5,
+  "zoom": 1.0
  },
  "soz_a1": {
   "url": "https://c.pxhere.com/photos/9b/ab/electrician_electric_electricity_worker_building_professional_employee_builder-1324058.jpg!s2",

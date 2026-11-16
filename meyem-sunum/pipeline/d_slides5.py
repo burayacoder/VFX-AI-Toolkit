@@ -241,7 +241,7 @@ OVERRIDES['alan'] = ('d', V7.art_alan, html_alan10, NOTES_ALAN10, '')
 
 # ====================================================================== yenilenen fotoğrafların alt metinleri
 ALT_FIX = {          # 'eski alt' -> 'yeni alt' (fotoğraflar: data/v10_foto_secim.json)
-    'Güvenlik ekipmanlı iki saha çalışanı, biri tablet kullanıyor': 'Baret, yelek ve eldivenli ekip sahada birlikte çalışıyor',
+    'Güvenlik ekipmanlı iki saha çalışanı, biri tablet kullanıyor': 'Tulum, yüz siperi, eldiven ve dizlikle taşlama yapan usta',
     'Koruyucu maskeyle kaynak yapan usta, çevresinde kıvılcımlar': 'Baretli elektrikçi prizi dikkatle bağlıyor',
     'Birbirine kenetlenen iki el: güven': 'İş eldivenli eller ölçüyü kalemle işaretliyor',
     'Şantiyede plan ve kontrol listesi üzerinde yazı yazan el': 'Baretli mühendis sahada planı bilgisayarla karşılaştırıyor',
@@ -250,7 +250,7 @@ ALT_FIX = {          # 'eski alt' -> 'yeni alt' (fotoğraflar: data/v10_foto_sec
     'Planlama notlarını yazan el ve dizüstü bilgisayar': 'Takvimde işaretlenmiş sınav günü',
     'Baretli çalışan grubu, sınav günü organizasyonu': 'Duvarda düzenli dizilmiş el aletleri: sınav ekipmanı',
     'Test cevap kâğıdı ve kurşun kalem: sınav değerlendirme': 'Kalemle yazılı sınav cevabı yazan el',
-    'MEYEM uzmanı, katılımcı grubuna sunum yapıyor': 'Baretli, reflektif yelekli ve koruyucu gözlüklü, gülümseyen saha çalışanı',
+    'MEYEM uzmanı, katılımcı grubuna sunum yapıyor': 'Kulak koruyucu, koruyucu gözlük ve reflektif yelekli, tebessüm eden çalışan',
     'Güvenlik yeleği ve bareti ile şantiyede çalışan işçi': 'Kırmızı baretli inşaat ustası çekiçle çalışıyor',
     'Atölyede maskeyle kaynak yapan usta': 'Atölyede kaynak maskesiyle çalışan kaynakçı',
     'Torna tezgâhında talaş kaldıran kesici uç': 'Tezgâh başında koruyucu gözlükle çalışan operatör',

@@ -57,6 +57,12 @@ Bunlar v7'de kullanıldı ve doğrulandı. Kaynak satırı için “MYK Portal, 
   - 31.12.2026: 6111 teşvikinde belgeli işçi alımı için son tanımlama günü. İmalatta 5 puanlık prim indirimi de bu tarihe kadar geçerli.
   - 23.03.2027: Geçiş süresi bitiyor. 2026/1 kapsamındaki 40 meslekte belge zorunlu oluyor.
 - **Onay sürecinde:** MYK'da 32 yeterlilik daha bekliyor, 16'sı zorunlu kapsamda.
+  - 32 yeterliliğin adları açık kaynakta yok. 16.11.2026'da şu kaynaklar tarandı ve listeye ulaşılamadı:
+    - MYK Portal kapsam ve tarife sayfaları: yalnızca 55 aktif yeterlilik var.
+    - meyem.com.tr: bot doğrulama sayfası açılıyor; aşılmadı.
+    - TÜRKAK kapsam portalı (secure.turkak.org.tr) ve Wayback Machine: bu ortamdan erişilemedi.
+    - Önceki Claude oturumları, MEYEM artifact'ları, Drive ve Gmail: yalnızca sayı geçiyor.
+  - Liste kullanıcıdan gelecek. Gelince `data/meyem_pending.json` dosyasına yazılır.
 - **9 alan:** 55 yeterlilik 9 gruba ayrıldı. Gruplama kuralları `pipeline/d_slides4.py` içindeki `RULES` listesinde.
 
   | Alan | Toplam | Zorunlu |

@@ -5,6 +5,7 @@ Bu klasör, MEYEM vizyon sunumu çalışmasını yeni bir Claude Code oturumunda
 ## 1. Durum
 
 - **Canlı sunum:** https://claude.ai/artifact/558FZyn6ShCbjLaEZBt66r. Slides türünde, sürüm 7, 14 slayt.
+- **v10 yayında (16.11.2026):** https://claude.ai/artifact/DTp39tdv3DsdPMXSHWUqeS. v7 üzerine: 13. slayt (iş birliği modeli) yerine vizyon, tüm fotoğraflar CC0/kamu malı kaynaklardan yenilendi. Kaynak kopyası `deck_v10/`, varlık eşlemesi `data/assets_v10.json`. Yetki kapsamı ve dokuz alan slaytlarına 32 yeterlilik listesi gelince eklenecek.
   - Kaynak kopyası `deck_v7/` klasöründe. Slayt metinlerini okumak için Artifact okumaya gerek yok.
   - Sıra: kapak, imza, soz, belge, takvim, alan, yaprak, yerinde, durak, tesvik, referans, halka, yol, kapanis.
 - **Kullanıcının 4. tur geri bildirimleri** v7'de karşılandı. Sıradaki iş v3 yeniden tasarımı (bölüm 5). Kullanıcının 5 soruya yanıtları bölüm 6'da.

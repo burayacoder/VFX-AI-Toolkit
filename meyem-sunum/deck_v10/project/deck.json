@@ -1,0 +1,68 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-14T08:34:37Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "MEYEM Vizyon Gravür v10",
+ "order": [
+  "kapak",
+  "imza",
+  "soz",
+  "belge",
+  "takvim",
+  "alan",
+  "yaprak",
+  "yerinde",
+  "durak",
+  "tesvik",
+  "referans",
+  "halka",
+  "vizyon",
+  "kapanis"
+ ],
+ "sections": {
+  "s1": {
+   "description": "Güven: kim olduğumuz ve hangi yetkiyle çalıştığımız",
+   "start": "kapak"
+  },
+  "s2": {
+   "description": "Gereklilik ve kapsam: takvim, meslek alanları ve 55 yeterlilik",
+   "start": "takvim"
+  },
+  "s3": {
+   "description": "Yöntem: yerinde sınav, süreç ve teşvik",
+   "start": "yerinde"
+  },
+  "s4": {
+   "description": "Kanıt ve eylem: referanslar, vizyon, model ve iletişim",
+   "start": "referans"
+  }
+ },
+ "faces": {
+  "bricolage-grotesque": {
+   "family": "Bricolage Grotesque",
+   "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300..800&display=swap"
+  },
+  "hanken-grotesk": {
+   "family": "Hanken Grotesk",
+   "href": "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300..700&display=swap"
+  },
+  "instrument-serif": {
+   "family": "Instrument Serif",
+   "href": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+  },
+  "jetbrains-mono": {
+   "family": "JetBrains Mono",
+   "href": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..700&display=swap"
+  }
+ },
+ "designSystems": []
+}

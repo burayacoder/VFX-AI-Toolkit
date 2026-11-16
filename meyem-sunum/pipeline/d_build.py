@@ -19,7 +19,11 @@ SL = []
 for m in mods:
     SL += getattr(m, [k for k in dir(m) if k.startswith('SLIDES')][0])
 by_id = {s[0]: s for s in SL}
-import d_slides4 as V2
+VER = os.environ.get('MEYEM_VER', '7')
+if VER == '10':
+    import d_slides5 as V2
+else:
+    import d_slides4 as V2
 final = []
 for sid in V2.ORDER_V2:
     if sid in V2.OVERRIDES:
@@ -54,7 +58,7 @@ dj = {
     'createdOnFiles': {'v': 1, 'at': '2026-11-14T08:34:37Z'},
     'lists': 'css',
     'format': {'v': 1, 'shared': ['project/deck.css']},
-    'title': 'MEYEM Vizyon Gravür',
+    'title': 'MEYEM Vizyon Gravür v10' if VER == '10' else 'MEYEM Vizyon Gravür',
     'order': ORDER,
     'sections': {
         's1': {'description': 'Güven: kim olduğumuz ve hangi yetkiyle çalıştığımız', 'start': 'kapak'},

@@ -1,0 +1,133 @@
+{
+ "cover_photo": {
+  "url": "https://c.pxhere.com/images/2c/78/6797d8d5f891990fe5fb4d904bf7-1596167.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1596167",
+  "lisans": "CC0 (PxHere)",
+  "not_": "carpenter,work,blue collar worker,construction worker,hard hat,engineer",
+  "cx": 0.56,
+  "cy": 0.42,
+  "zoom": 1.15
+ },
+ "close_photo": {
+  "url": "https://live.staticflickr.com/65535/54346512107_be1e19c551_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/62256332@N08/54346512107",
+  "lisans": "Kamu malı (PDM) (flickr)",
+  "not_": "jasonflorio_USAID-1976",
+  "yazar": "USAID Mozambique",
+  "cx": 0.42,
+  "cy": 0.42,
+  "zoom": 1.25
+ },
+ "soz_a1": {
+  "url": "https://c.pxhere.com/photos/9b/ab/electrician_electric_electricity_worker_building_professional_employee_builder-1324058.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1324058",
+  "lisans": "CC0 (PxHere)",
+  "not_": "work,man,person,people,hand,building",
+  "cx": 0.44
+ },
+ "soz_a2": {
+  "url": "https://c.pxhere.com/photos/95/73/building_glazurkarz_ceramic_tiles_terrakota_tile_tarakota_professional-1324056.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1324056",
+  "lisans": "CC0 (PxHere)",
+  "not_": "work,hand,man,people,writing,play"
+ },
+ "soz_a3": {
+  "url": "https://c.pxhere.com/images/f8/3b/bff7d4f06777bc86a6f259380e46-1575627.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1575627",
+  "lisans": "CC0 (PxHere)",
+  "not_": "architect,architecture,adult,architectural,blank,blue",
+  "cx": 0.62
+ },
+ "tile_insaat": {
+  "url": "https://c.pxhere.com/photos/7c/52/construction_worker_hardhat_hammer_building_labor_site_job-749546.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/749546",
+  "lisans": "CC0 (PxHere)",
+  "not_": "building,asphalt,construction,worker,woman,hammer",
+  "cx": 0.62
+ },
+ "tile_metal": {
+  "url": "https://c.pxhere.com/photos/f5/cb/welder_welding_industry_industrial_manufacturing_mask_metal_worker-897748.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/897748",
+  "lisans": "CC0 (PxHere)",
+  "not_": "spark,work,man,steel,construction,repair",
+  "cx": 0.42
+ },
+ "tile_makine": {
+  "url": "https://live.staticflickr.com/65535/46953747894_fcb4995d7b_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/39955793@N07/46953747894",
+  "lisans": "Kamu malı (PDM) (flickr)",
+  "not_": "190428-N-ZM949-1125",
+  "yazar": "U.S. Department of Defense Current Photos"
+ },
+ "tile_enerji": {
+  "url": "https://c.pxhere.com/images/06/3f/3e68df9eeea9c3e730537d73257f-1700564.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1700564",
+  "lisans": "CC0 (PxHere)",
+  "not_": "precise,repairman,contracted,client,detect,air conditioner",
+  "cx": 0.46
+ },
+ "tile_tasima": {
+  "url": "https://c.pxhere.com/photos/a3/88/class_practice_retractable_shelves_pallets_palleting_storage_operations_entrepreneur-820857.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/820857",
+  "lisans": "CC0 (PxHere)",
+  "not_": "vehicle,floor,driving,truck,training,machinery",
+  "cx": 0.68
+ },
+ "tile_gida": {
+  "url": "https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2ZsMzQ2NTQ5MDI4MjMtcHVibGljLWltYWdlLWtvd3NjNHhuLmpwZw.jpg",
+  "kaynak": "https://www.rawpixel.com/image/3306715/free-photo-image-factory-agriculture-us",
+  "lisans": "CC0 (rawpixel)",
+  "not_": "Workers processing Vidallai Onions at Bland",
+  "yazar": "U.S. Department of Agriculture"
+ },
+ "tile_ticaret": {
+  "url": "https://live.staticflickr.com/41/96148841_586190c36a_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/62518311@N00/96148841",
+  "lisans": "CC0 (flickr)",
+  "not_": "Safeway",
+  "yazar": "Daquella manera"
+ },
+ "tile_yonetim": {
+  "url": "https://c.pxhere.com/photos/75/9f/workplace_team_business_meeting_business_people_business_teamwork_office_people-559565.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/559565",
+  "lisans": "CC0 (PxHere)",
+  "not_": "working,meeting,computer,person,group,people"
+ },
+ "tile_bilisim": {
+  "url": "https://c.pxhere.com/photos/82/8f/datacenter_servers_computers-1241325.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1241325",
+  "lisans": "CC0 (PxHere)",
+  "not_": "technology,server,machine,product,computers,servers"
+ },
+ "onsite_big": {
+  "url": "https://live.staticflickr.com/805/41186909981_a474979dfc_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/123443813@N05/41186909981",
+  "lisans": "Kamu malı (PDM) (flickr)",
+  "not_": "BSEE Inspects New Appomattox Platform",
+  "yazar": "bseegov"
+ },
+ "step_d1": {
+  "url": "https://c.pxhere.com/photos/6f/e7/contract_consultation_office_meeting_chef_secretary_hand_understanding-1096224.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/1096224",
+  "lisans": "CC0 (PxHere)",
+  "not_": "writing,hand,meeting,office,desk,sign"
+ },
+ "step_d2": {
+  "url": "https://c.pxhere.com/photos/4d/f7/time_calendar_saturday_weekend_day_days_date_month-985713.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/985713",
+  "lisans": "CC0 (PxHere)",
+  "not_": "writing,brand,time,range,line,date"
+ },
+ "step_d3": {
+  "url": "https://c.pxhere.com/photos/d6/06/tools_workshop_equipment_construction_industrial_screwdrivers_carpentry_maintenance-893399.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/893399",
+  "lisans": "CC0 (PxHere)",
+  "not_": "tool,workshop,construction,repair,equipment,industrial"
+ },
+ "step_d4": {
+  "url": "https://c.pxhere.com/photos/b7/50/class_diary_exam_homework_learning_lecture_notes_pen-917715.jpg!s2",
+  "kaynak": "https://pxhere.com/en/photo/917715",
+  "lisans": "CC0 (PxHere)",
+  "not_": "writing,hand,finger,student,pen,diary"
+ }
+}

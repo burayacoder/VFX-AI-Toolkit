@@ -7,7 +7,7 @@ OUT = M2 + '/out'
 PROJ = OUT + '/project'
 STAGE = M2 + '/stage'
 ASSETS = M2 + '/assets'
-URLS = os.path.join(os.path.dirname(M2), 'data', 'assets.json')
+URLS = os.environ.get('MEYEM_URLS', os.path.join(os.path.dirname(M2), 'data', 'assets.json'))
 
 MODE = {'v': 'preview'}          # 'preview' | 'publish'
 USED = {}                        # yayın adı -> kaynak dosya

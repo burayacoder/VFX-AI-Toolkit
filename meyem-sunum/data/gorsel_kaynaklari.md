@@ -38,3 +38,32 @@ Ek kaynak notları:
 - PxHere tam boy dosyası, fotoğraf sayfasındaki indirme bağlantısından alınır.
 - StockSnap aramasında sponsorlu Shutterstock sonuçları kullanılmaz.
 - Unsplash, Pexels ve Pixabay yalnızca resmi API anahtarıyla kullanılır. Anahtar `request_credential` formuyla istenir.
+
+## v10 fotoğrafları (Kasım 2026)
+
+Sonnet sunumunun (v7) fotoğrafları anlatıyla örtüşen CC0 ya da kamu malı görsellerle yenilendi. Seçim ve kırpım odağı `data/v10_foto_secim.json`, üretim `pipeline/make_photos10.py` dosyasında.
+
+| Varlık | Kaynak | Lisans | Konu |
+|---|---|---|---|
+| cover_photo | https://pxhere.com/en/photo/1596167 | CC0 (PxHere) | carpenter,work,blue collar worker,construction worker,hard h |
+| close_photo | https://www.flickr.com/photos/62256332@N08/54346512107 | Kamu malı (PDM) (flickr) | jasonflorio_USAID-1976 |
+| soz_a1 | https://pxhere.com/en/photo/1324058 | CC0 (PxHere) | work,man,person,people,hand,building |
+| soz_a2 | https://pxhere.com/en/photo/1324056 | CC0 (PxHere) | work,hand,man,people,writing,play |
+| soz_a3 | https://pxhere.com/en/photo/1575627 | CC0 (PxHere) | architect,architecture,adult,architectural,blank,blue |
+| tile_insaat | https://pxhere.com/en/photo/749546 | CC0 (PxHere) | building,asphalt,construction,worker,woman,hammer |
+| tile_metal | https://pxhere.com/en/photo/897748 | CC0 (PxHere) | spark,work,man,steel,construction,repair |
+| tile_makine | https://www.flickr.com/photos/39955793@N07/46953747894 | Kamu malı (PDM) (flickr) | 190428-N-ZM949-1125 |
+| tile_enerji | https://pxhere.com/en/photo/1700564 | CC0 (PxHere) | precise,repairman,contracted,client,detect,air conditioner |
+| tile_tasima | https://pxhere.com/en/photo/820857 | CC0 (PxHere) | vehicle,floor,driving,truck,training,machinery |
+| tile_gida | https://www.rawpixel.com/image/3306715/free-photo-image-factory-agriculture-us | CC0 (rawpixel) | Workers processing Vidallai Onions at Bland |
+| tile_ticaret | https://www.flickr.com/photos/62518311@N00/96148841 | CC0 (flickr) | Safeway |
+| tile_yonetim | https://pxhere.com/en/photo/559565 | CC0 (PxHere) | working,meeting,computer,person,group,people |
+| tile_bilisim | https://pxhere.com/en/photo/1241325 | CC0 (PxHere) | technology,server,machine,product,computers,servers |
+| onsite_big | https://www.flickr.com/photos/123443813@N05/41186909981 | Kamu malı (PDM) (flickr) | BSEE Inspects New Appomattox Platform |
+| step_d1 | https://pxhere.com/en/photo/1096224 | CC0 (PxHere) | writing,hand,meeting,office,desk,sign |
+| step_d2 | https://pxhere.com/en/photo/985713 | CC0 (PxHere) | writing,brand,time,range,line,date |
+| step_d3 | https://pxhere.com/en/photo/893399 | CC0 (PxHere) | tool,workshop,construction,repair,equipment,industrial |
+| step_d4 | https://pxhere.com/en/photo/917715 | CC0 (PxHere) | writing,hand,finger,student,pen,diary |
+
+- PxHere tam boy dosyası sunucu zaman aşımına düştüğü için önbellekteki 800 px sürüm kullanıldı.
+- StockSnap bu ortamdan yapılan isteklere 403 verdi; engel aşılmadı.

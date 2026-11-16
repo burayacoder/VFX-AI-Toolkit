@@ -1,0 +1,482 @@
+{
+ "kaynak": "MEYEM Marmara Adayları (Google Haritalar üretici taraması, İSO 500 / İkinci 500 listeleri), Kasım 2026; ilçeler: Gebze, Çayırova, Darıca, Dilovası",
+ "ilce": [
+  [
+   "Gebze",
+   116
+  ],
+  [
+   "Çayırova",
+   70
+  ],
+  [
+   "Darıca",
+   63
+  ],
+  [
+   "Dilovası",
+   60
+  ]
+ ],
+ "sektor": [
+  [
+   "Kimya",
+   56,
+   1
+  ],
+  [
+   "Metalurji",
+   43,
+   0
+  ],
+  [
+   "Metal ürünleri",
+   40,
+   0
+  ],
+  [
+   "Gıda",
+   39,
+   1
+  ],
+  [
+   "Tekstil",
+   30,
+   1
+  ],
+  [
+   "Lojistik ve depo",
+   29,
+   0
+  ],
+  [
+   "Ağaç ürünleri",
+   28,
+   0
+  ],
+  [
+   "Kağıt ve ambalaj",
+   25,
+   1
+  ],
+  [
+   "Diğer sektörler",
+   19,
+   0
+  ]
+ ],
+ "kazan": 161,
+ "firmalar": {
+  "gfkazan": [
+   {
+    "ad": "Kastamonu Entegre Ağaç",
+    "tur": "Ahşap panel",
+    "ilce": "Gebze",
+    "olcek": "İSO 500 · 43.",
+    "calisan": "3.472 çalışan",
+    "kaynak_ad": "Kastamonu Entegre Ağaç Sanayi ve Ticaret A. Ş. - Gebze Fabrikası",
+    "web": "http://www.kastamonuentegre.com.tr/",
+    "sektor": "Taş ve Toprak",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Ateşsan Ambalaj",
+    "tur": "Oluklu ambalaj",
+    "ilce": "Gebze",
+    "olcek": "İSO İkinci 500 · 263.",
+    "calisan": "524 çalışan",
+    "kaynak_ad": "Ateşsan Ambalaj San.Tic.A.Ş.",
+    "web": "",
+    "sektor": "Kağıt ve Selüloz",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Özanteks Tekstil",
+    "tur": "Tekstil",
+    "ilce": "Darıca",
+    "olcek": "İSO İkinci 500 · 374.",
+    "calisan": "1.190 çalışan",
+    "kaynak_ad": "ÖZANTEKS TEKSTİL SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+    "web": "",
+    "sektor": "İplik, Dokuma ve Giyim",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Plastay Kimya",
+    "tur": "Kimya",
+    "ilce": "Gebze",
+    "olcek": "İSO İkinci 500 · 266.",
+    "calisan": "152 çalışan",
+    "kaynak_ad": "Plastay Kimya",
+    "web": "https://www.plastay.com/",
+    "sektor": "Kimya",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Green Chemicals",
+    "tur": "Kimya",
+    "ilce": "Çayırova",
+    "olcek": "İSO İkinci 500 · 437.",
+    "calisan": "140 çalışan",
+    "kaynak_ad": "GREEN Chemicals Kimyasal Maddeler Sanayi ve Ticaret Anonim Şirketi",
+    "web": "http://www.green-chemicals.com/",
+    "sektor": "Kimya",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "By Petrokimya",
+    "tur": "Kimya",
+    "ilce": "Dilovası",
+    "olcek": "İSO İkinci 500 · 375.",
+    "calisan": "41 çalışan",
+    "kaynak_ad": "By Petrokimya",
+    "web": "http://www.bypetrokimya.com/",
+    "sektor": "Kimya",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Deskim Destilasyon Kimya",
+    "tur": "Kimya",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Deskim Destilasyon Kimya Sanayi ve Ticaret A.Ş.",
+    "web": "http://deskim.com.tr/",
+    "sektor": "Kimya",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Baylan Kağıt",
+    "tur": "Oluklu mukavva",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "BAYLAN KAĞIT OLUKLU MUKAVVA SAN.TİC.A.Ş",
+    "web": "https://baylankagit.com/",
+    "sektor": "Kağıt ve Selüloz",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Kent Oluklu Mukavva",
+    "tur": "Oluklu mukavva",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Kent Oluklu Mukavva Ambalaj",
+    "web": "http://www.kentoluklu.com/",
+    "sektor": "Kağıt ve Selüloz",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   },
+   {
+    "ad": "Çardak Oluklu Mukavva",
+    "tur": "Oluklu mukavva",
+    "ilce": "Çayırova",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "ÇARDAK OLUKLU MUKAVVA SANAYİ VE TİCARET ANONİM ŞİRKETİ",
+    "web": "http://www.cardakoluklu.com.tr/",
+    "sektor": "Kağıt ve Selüloz",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü"
+    ]
+   }
+  ],
+  "gfgida": [
+   {
+    "ad": "Namet",
+    "tur": "Et ürünleri",
+    "ilce": "Çayırova",
+    "olcek": "İSO 500 · 67.",
+    "calisan": "1.842 çalışan",
+    "kaynak_ad": "Namet",
+    "web": "http://www.namet.com.tr/",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Bifet Gıda",
+    "tur": "Gıda",
+    "ilce": "Çayırova",
+    "olcek": "İSO İkinci 500 · 362.",
+    "calisan": "240 çalışan",
+    "kaynak_ad": "Bifet Gıda San. Tic. Ltd. Şti.",
+    "web": "https://www.bifet.com.tr/",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Erley Gıda",
+    "tur": "Dondurulmuş gıda",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "ERLEY GIDA VE İHTİYAÇ MADDELERİ PAZARLAMA SANAYİ VE TİCARET LTD. ŞTİ. GEBZE",
+    "web": "https://erayagroup.com/erley-gida",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "2F Frozen Food",
+    "tur": "Dondurulmuş gıda",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "2F Frozen Food",
+    "web": "",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Mom’s Natural Foods",
+    "tur": "Gıda",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Mom's Natural Foods",
+    "web": "https://www.momsnaturalfoods.com.tr/",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Pastoral Gıda",
+    "tur": "Hazır gıda",
+    "ilce": "Dilovası",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Pastoral Gıda",
+    "web": "http://pastoralgida.com.tr/",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Gemma Gıda",
+    "tur": "Gıda",
+    "ilce": "Dilovası",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Gemma Gıda Kimya",
+    "web": "",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Yufsan",
+    "tur": "Unlu mamul",
+    "ilce": "Darıca",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "DARICA YUFSAN TOPTAN VE PARAKENDE YUFKA",
+    "web": "https://www.yufsan.com.tr/",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   },
+   {
+    "ad": "Şamama Gıda",
+    "tur": "Gıda",
+    "ilce": "Darıca",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Şamama Gıda",
+    "web": "",
+    "sektor": "Gıda",
+    "belgeler": [
+     "Buhar Kazanı Operatörü",
+     "Sıcak Su Kazanı Operatörü",
+     "Dolum/Ambalajlama ve Paketleme Operatörü (Gıda)"
+    ]
+   }
+  ],
+  "gfmetal": [
+   {
+    "ad": "Çolakoğlu Metalurji",
+    "tur": "Çelik",
+    "ilce": "Dilovası",
+    "olcek": "İSO 500 · 18.",
+    "calisan": "1.809 çalışan",
+    "kaynak_ad": "Çolakoğlu Metalurji A.Ş.",
+    "web": "",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Asil Çelik",
+    "tur": "Çelik",
+    "ilce": "Çayırova",
+    "olcek": "İSO 500 · 129.",
+    "calisan": "1.271 çalışan",
+    "kaynak_ad": "ASİL ÇELİK SANAYİ VE TİCARET A.Ş",
+    "web": "http://www.asilcelik.com.tr/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Sıddık Kardeşler Çelikhane",
+    "tur": "Çelik",
+    "ilce": "Gebze",
+    "olcek": "İSO 500 · 304.",
+    "calisan": "400 çalışan",
+    "kaynak_ad": "SIDDIK KARDEŞLER ÇELİKHANE FABRİKASI",
+    "web": "http://www.siddikkardesler.com/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Gazi Metal",
+    "tur": "Metal ürünleri",
+    "ilce": "Gebze",
+    "olcek": "İSO 500 · 267.",
+    "calisan": "308 çalışan",
+    "kaynak_ad": "Gazi Metal Gebze",
+    "web": "http://www.gazimetal.com.tr/",
+    "sektor": "Metal ve Metalden Mamul Eşya",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Güney Çelik Hasır",
+    "tur": "Çelik hasır",
+    "ilce": "Dilovası",
+    "olcek": "İSO İkinci 500 · 452.",
+    "calisan": "259 çalışan",
+    "kaynak_ad": "Güney Çelik Hasır",
+    "web": "http://www.guneycelik.com.tr/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "BMS Çelik Hasır",
+    "tur": "Çelik hasır",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "BMS ÇELİK HASIR A.Ş. GEBZE FABRİKA",
+    "web": "https://www.bmsch.com.tr/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Diler Demir Çelik Haddanesi",
+    "tur": "Haddehane",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "DİLER DEMİR ÇELİK FİLMAŞIN HADDANESİ",
+    "web": "",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Mestaş Demir Çelik",
+    "tur": "Çelik",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Mestaş Demir Çelik Fabr.",
+    "web": "http://www.mestascelik.com.tr/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Kardem Demir",
+    "tur": "Demir çelik",
+    "ilce": "Gebze",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "Kardem Demir Sanayi Anonim Şirket Fabr.",
+    "web": "http://kardemdemir.com/",
+    "sektor": "Metalurji",
+    "belgeler": [
+     "Tornacı"
+    ]
+   },
+   {
+    "ad": "Maksac Metal",
+    "tur": "Sac metal",
+    "ilce": "Dilovası",
+    "olcek": "",
+    "calisan": "",
+    "kaynak_ad": "MAKSAC METAL",
+    "web": "http://www.maksac.com/",
+    "sektor": "Metal ve Metalden Mamul Eşya",
+    "belgeler": [
+     "Tornacı"
+    ]
+   }
+  ]
+ }
+}

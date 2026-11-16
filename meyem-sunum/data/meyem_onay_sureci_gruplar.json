@@ -1,0 +1,84 @@
+{
+ "kaynak": "Eski \"MEYEM Gebze Analizi\" taslaklarındaki \"Yetki sürecindeki 32 yeterlilik\" sayfası (kaynak notu: MEYEM yetki sürecindeki meslekler listesi). Adlar o sayfadaki \"başlıca meslekler\" sütunundan; tam liste kullanıcının belgesinde.",
+ "toplam": 32,
+ "zorunlu": 16,
+ "tebligat_2026_1": 10,
+ "gruplar": [
+  {
+   "alan": "İnşaat ve iş makinesi",
+   "sayi": 5,
+   "zorunlu": 4,
+   "meslekler": [
+    "Beton Pompa Operatörü",
+    "Beton Transmikser Operatörü",
+    "Ekskavatör Operatörü",
+    "Mobil Vinç Operatörü",
+    "İş Makinesi Bakım ve Onarımcısı"
+   ]
+  },
+  {
+   "alan": "Enerji ve tesisat",
+   "sayi": 8,
+   "zorunlu": 8,
+   "meslekler": [
+    "Kızgın Yağ Kazanı Operatörü",
+    "Klima Sistemleri (S3, S4)",
+    "Florlu Sera Gazlı Cihazlar Teknik Personeli",
+    "Doğal gaz (2)",
+    "Doğal Gaz Polietilen Boru Kaynakçısı (S3, S4)"
+   ]
+  },
+  {
+   "alan": "Çevre",
+   "sayi": 4,
+   "zorunlu": 2,
+   "meslekler": [
+    "Tehlikeli Atık Toplayıcısı",
+    "Atık Ayırma İşçisi",
+    "Tehlikesiz Atık Toplayıcısı",
+    "Atıksu Arıtma"
+   ]
+  },
+  {
+   "alan": "Gıda",
+   "sayi": 4,
+   "zorunlu": 1,
+   "meslekler": [
+    "Bitkisel Yağ Üretim Operatörü",
+    "Çiğ Süt Depolama Sorumlusu",
+    "Çiğ Süt Toplama Elemanı",
+    "Meyve-Sebze Suyu"
+   ]
+  },
+  {
+   "alan": "Turizm",
+   "sayi": 5,
+   "zorunlu": 0,
+   "meslekler": [
+    "Aşçı",
+    "Kat Hizmetleri",
+    "Ön Büro",
+    "Kantinci",
+    "Servis"
+   ]
+  },
+  {
+   "alan": "Sağlık ve kişisel",
+   "sayi": 5,
+   "zorunlu": 1,
+   "meslekler": [
+    "Engelli ve Yaşlı Bakım Elemanı (S3, S4, S5)",
+    "Kuaför",
+    "Epilasyon"
+   ]
+  },
+  {
+   "alan": "Ticaret",
+   "sayi": 1,
+   "zorunlu": 0,
+   "meslekler": [
+    "Araç Kiralama"
+   ]
+  }
+ ]
+}

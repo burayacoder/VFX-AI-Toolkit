@@ -5,6 +5,7 @@ Bu klasör, MEYEM vizyon sunumu çalışmasını yeni bir Claude Code oturumunda
 ## 1. Durum
 
 - **Canlı sunum:** https://claude.ai/artifact/558FZyn6ShCbjLaEZBt66r. Slides türünde, sürüm 7, 14 slayt.
+- **Gebze sunumu (16.11.2026):** https://claude.ai/artifact/XvqcSePZ7F55DmHu9qAgkY. 11 slayt, vizyon sunumuyla aynı görsel dil. Kaynak `pipeline/g_slides.py`, `g_build.py`; veri `data/gebze_fabrikalar.json`; kopya `deck_gebze/`, varlıklar `data/assets_gebze.json`.
 - **v10 yayında (16.11.2026):** https://claude.ai/artifact/DTp39tdv3DsdPMXSHWUqeS. v7 üzerine: 13. slayt (iş birliği modeli) yerine vizyon, tüm fotoğraflar CC0/kamu malı kaynaklardan yenilendi. Kaynak kopyası `deck_v10/`, varlık eşlemesi `data/assets_v10.json`. 16.11.2026 revizyonu: yetki kapsamı rozeti 55 + 32 yaprak (açıktan koyuya, onay sürecindeki 32 en koyu), zorunlu/gönüllü sayıları ayrı sütunda; koruyucu ekipmanlı fotoğraflar. Zorunluluk, Resmî Gazete 2026/1 eki ve 2015–2021 tebliğ listesiyle doğrulandı: 27 zorunlu, bilişim dahil 28 gönüllü. 32 yeterliliğin adları liste gelince eklenecek.
   - Kaynak kopyası `deck_v7/` klasöründe. Slayt metinlerini okumak için Artifact okumaya gerek yok.
   - Sıra: kapak, imza, soz, belge, takvim, alan, yaprak, yerinde, durak, tesvik, referans, halka, yol, kapanis.
@@ -63,7 +64,7 @@ Bunlar v7'de kullanıldı ve doğrulandı. Kaynak satırı için “MYK Portal, 
     - meyem.com.tr: bot doğrulama sayfası açılıyor; aşılmadı.
     - TÜRKAK kapsam portalı (secure.turkak.org.tr) ve Wayback Machine: bu ortamdan erişilemedi.
     - Önceki Claude oturumları, MEYEM artifact'ları, Drive ve Gmail: yalnızca sayı geçiyor.
-  - Liste kullanıcıdan gelecek. Gelince `data/meyem_pending.json` dosyasına yazılır.
+  - Eski Gebze taslaklarında 32 yeterliliğin alan gruplaması ve başlıca adları bulundu: `data/meyem_onay_sureci_gruplar.json` (7 alan; 10’u 2026/1 Tebliği’nden). Bazı adlar kısaltılmış (“Doğal gaz (2)”, “Atıksu Arıtma”, “Meyve-Sebze Suyu”); tam liste kullanıcının “MEYEM yetki sürecindeki meslekler” belgesinde.
 - **9 alan:** 55 yeterlilik 9 gruba ayrıldı. Gruplama kuralları `pipeline/d_slides4.py` içindeki `RULES` listesinde.
 
   | Alan | Toplam | Zorunlu |

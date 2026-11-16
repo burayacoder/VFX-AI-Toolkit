@@ -45,17 +45,17 @@ Sonnet sunumunun (v7) fotoğrafları anlatıyla örtüşen CC0 ya da kamu malı 
 
 | Varlık | Kaynak | Lisans | Konu |
 |---|---|---|---|
-| cover_photo | https://pxhere.com/en/photo/1596167 | CC0 (PxHere) | carpenter,work,blue collar worker,construction worker,hard h |
-| close_photo | https://www.flickr.com/photos/62256332@N08/54346512107 | Kamu malı (PDM) (flickr) | jasonflorio_USAID-1976 |
+| cover_photo | https://www.flickr.com/photos/62518311@N00/428896110 | CC0 (flickr) | Obreros: baret, yelek, eldiven ve gözlüklü ekip |
+| close_photo | https://www.flickr.com/photos/49208525@N08/7162907121 | Kamu malı (PDM) (flickr) | U.S. Fish and Wildlife Service: baretli, yelekli, gözlüklü çalışan |
 | soz_a1 | https://pxhere.com/en/photo/1324058 | CC0 (PxHere) | work,man,person,people,hand,building |
-| soz_a2 | https://pxhere.com/en/photo/1324056 | CC0 (PxHere) | work,hand,man,people,writing,play |
+| soz_a2 | https://www.rawpixel.com/image/5928007/photo-image-public-domain-wood-person | CC0 (rawpixel) | İş eldivenli eller ölçü işaretliyor |
 | soz_a3 | https://pxhere.com/en/photo/1575627 | CC0 (PxHere) | architect,architecture,adult,architectural,blank,blue |
 | tile_insaat | https://pxhere.com/en/photo/749546 | CC0 (PxHere) | building,asphalt,construction,worker,woman,hammer |
 | tile_metal | https://pxhere.com/en/photo/897748 | CC0 (PxHere) | spark,work,man,steel,construction,repair |
 | tile_makine | https://www.flickr.com/photos/39955793@N07/46953747894 | Kamu malı (PDM) (flickr) | 190428-N-ZM949-1125 |
 | tile_enerji | https://pxhere.com/en/photo/1700564 | CC0 (PxHere) | precise,repairman,contracted,client,detect,air conditioner |
-| tile_tasima | https://pxhere.com/en/photo/820857 | CC0 (PxHere) | vehicle,floor,driving,truck,training,machinery |
-| tile_gida | https://www.rawpixel.com/image/3306715/free-photo-image-factory-agriculture-us | CC0 (rawpixel) | Workers processing Vidallai Onions at Bland |
+| tile_tasima | https://www.flickr.com/photos/41284017@N08/24221252757 | Kamu malı (PDM) (flickr) | USDA: baretli, yelekli forklift operatörü |
+| tile_gida | https://www.flickr.com/photos/41284017@N08/34654902823 | Kamu malı (PDM) (flickr) | USDA: Bland Farms soğan ayıklama hattı (filigransız asıl) |
 | tile_ticaret | https://www.flickr.com/photos/62518311@N00/96148841 | CC0 (flickr) | Safeway |
 | tile_yonetim | https://pxhere.com/en/photo/559565 | CC0 (PxHere) | working,meeting,computer,person,group,people |
 | tile_bilisim | https://pxhere.com/en/photo/1241325 | CC0 (PxHere) | technology,server,machine,product,computers,servers |
@@ -67,3 +67,4 @@ Sonnet sunumunun (v7) fotoğrafları anlatıyla örtüşen CC0 ya da kamu malı 
 
 - PxHere tam boy dosyası sunucu zaman aşımına düştüğü için önbellekteki 800 px sürüm kullanıldı.
 - StockSnap bu ortamdan yapılan isteklere 403 verdi; engel aşılmadı.
+- 16.11.2026 revizyonu: koruyucu ekipmanı eksik görünen kapak, kapanış, söz (2. kemer) ve forklift fotoğrafları değiştirildi; gıda karosu rawpixel önizlemesindeki soluk filigran yüzünden USDA Flickr aslından yeniden üretildi.

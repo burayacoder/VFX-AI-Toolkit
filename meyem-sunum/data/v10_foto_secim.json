@@ -1,22 +1,28 @@
 {
  "cover_photo": {
-  "url": "https://c.pxhere.com/images/2c/78/6797d8d5f891990fe5fb4d904bf7-1596167.jpg!s2",
-  "kaynak": "https://pxhere.com/en/photo/1596167",
-  "lisans": "CC0 (PxHere)",
-  "not_": "carpenter,work,blue collar worker,construction worker,hard hat,engineer",
-  "cx": 0.56,
-  "cy": 0.42,
-  "zoom": 1.15
+  "url": "https://live.staticflickr.com/151/428896110_fc253547ce_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/62518311@N00/428896110",
+  "lisans": "CC0 (flickr)",
+  "not_": "Obreros",
+  "cx": 0.35,
+  "cy": 0.5,
+  "zoom": 1.0,
+  "grade": [
+   1.06,
+   1.12,
+   0.8,
+   1.02
+  ]
  },
  "close_photo": {
-  "url": "https://live.staticflickr.com/65535/54346512107_be1e19c551_b.jpg",
-  "kaynak": "https://www.flickr.com/photos/62256332@N08/54346512107",
+  "url": "https://live.staticflickr.com/7240/7162907121_1e20240f8c_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/49208525@N08/7162907121",
   "lisans": "Kamu malı (PDM) (flickr)",
-  "not_": "jasonflorio_USAID-1976",
-  "yazar": "USAID Mozambique",
-  "cx": 0.42,
-  "cy": 0.42,
-  "zoom": 1.25
+  "not_": "Regional Director Tom Melius and Walt Szelag",
+  "yazar": "U.S. Fish and Wildlife Service - Midwest Region",
+  "cx": 0.69,
+  "cy": 0.52,
+  "zoom": 1.55
  },
  "soz_a1": {
   "url": "https://c.pxhere.com/photos/9b/ab/electrician_electric_electricity_worker_building_professional_employee_builder-1324058.jpg!s2",
@@ -26,10 +32,12 @@
   "cx": 0.44
  },
  "soz_a2": {
-  "url": "https://c.pxhere.com/photos/95/73/building_glazurkarz_ceramic_tiles_terrakota_tile_tarakota_professional-1324056.jpg!s2",
-  "kaynak": "https://pxhere.com/en/photo/1324056",
-  "lisans": "CC0 (PxHere)",
-  "not_": "work,hand,man,people,writing,play"
+  "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2JzMTQ3Mi1pbWFnZS1rd3Z5bTR4My5qcGc.jpg",
+  "kaynak": "https://www.rawpixel.com/image/5928007/photo-image-public-domain-wood-person",
+  "lisans": "CC0 (rawpixel)",
+  "not_": "construction worker safety gloves measures",
+  "cx": 0.58,
+  "cy": 0.5
  },
  "soz_a3": {
   "url": "https://c.pxhere.com/images/f8/3b/bff7d4f06777bc86a6f259380e46-1575627.jpg!s2",
@@ -67,18 +75,20 @@
   "cx": 0.46
  },
  "tile_tasima": {
-  "url": "https://c.pxhere.com/photos/a3/88/class_practice_retractable_shelves_pallets_palleting_storage_operations_entrepreneur-820857.jpg!s2",
-  "kaynak": "https://pxhere.com/en/photo/820857",
-  "lisans": "CC0 (PxHere)",
-  "not_": "vehicle,floor,driving,truck,training,machinery",
-  "cx": 0.68
+  "url": "https://live.staticflickr.com/4586/24221252757_484b7e1ab7_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/41284017@N08/24221252757",
+  "lisans": "Kamu malı (PDM) (flickr)",
+  "not_": "171207-Z-FD650-1004",
+  "yazar": "USDAgov",
+  "cx": 0.76,
+  "cy": 0.5
  },
  "tile_gida": {
-  "url": "https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2ZsMzQ2NTQ5MDI4MjMtcHVibGljLWltYWdlLWtvd3NjNHhuLmpwZw.jpg",
-  "kaynak": "https://www.rawpixel.com/image/3306715/free-photo-image-factory-agriculture-us",
-  "lisans": "CC0 (rawpixel)",
-  "not_": "Workers processing Vidallai Onions at Bland",
-  "yazar": "U.S. Department of Agriculture"
+  "url": "https://live.staticflickr.com/4289/34654902823_19d0a18803_b.jpg",
+  "kaynak": "https://www.flickr.com/photos/41284017@N08/34654902823",
+  "lisans": "Kamu malı (PDM) (flickr)",
+  "not_": "20170620-OSEC-PJK-1536 (Bland Farms, Vidalia soğanı)",
+  "yazar": "USDAgov"
  },
  "tile_ticaret": {
   "url": "https://live.staticflickr.com/41/96148841_586190c36a_b.jpg",
